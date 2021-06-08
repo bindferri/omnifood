@@ -1,0 +1,134 @@
+/* !---- FROM BIG TABLETS TO 1200px  ----! */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box{
+        width: 100% ;
+        padding: 0 2%;
+    }
+    .row{
+        padding: 0 2%;
+    }
+    .costumer-testimonials{
+        height: 100% ;
+    }
+    .customer-profile h4{
+        font-size: 90%;
+    }
+    .footer-nav li{
+        font-size: 80%;
+    }
+    .work-step p{
+        font-size: 90%;
+    }
+}
+
+/* !---- SMALL TABLETS TO BIG TABLETS : 768 to 1023 ----! */
+@media only screen and (max-width: 1023px) {
+    body{
+        font-size: 18px ;
+    }
+    section{
+        padding: 60px 0;
+    }
+    .icon-big{
+        padding-left: 0px ;
+    }
+    .h3-padding-left{
+        padding-left: 0px ;
+    }
+    .h3-padding-left-less{
+        padding-left: 0px ;
+    }
+    .work-step{
+        margin-bottom: 0px ;
+    }
+    .work-step div{
+        font-size: 80% ;
+        height: 40px;
+        width: 40px;
+    }
+    .plan-price{
+        font-size: 200% ;
+    }
+    .footer-nav li{
+        font-size: 60%;
+    }
+    .icons{
+        width: 15px;
+    }
+    .text-cities{
+        font-size: 85% ;
+    }
+    .text-cities p {
+        margin-bottom: 15px;
+    }
+    .plan-price-meal{
+        font-size: 70% ;
+    }
+    .contact-form{
+        width: 80% ;
+    }
+}
+
+/* !---- SMALL PHONES TO SMALL TABLETS : 481 to 767 ----! */
+@media only screen and (max-width: 767px) {
+    body{ font-size: 16px; }
+    section{ padding: 30px 0 ; }
+    .row,.hero-text-box{
+        padding: 0 4%;
+    }
+    .mobile-nav{
+        display: inline-block;
+    }
+    .main-nav{
+        float: left;
+        margin-top: 25px;
+        margin-left: 25px;
+        display: none;
+    }
+    .main-nav li{
+        display: block;
+    }
+    .main-nav li a:link,.main-nav li a:visited{
+        display: block;
+        border: 0;
+    }
+
+    .sticky .main-nav li a:link,.sticky .main-nav li a:visited{
+        padding: 10px 0 ;
+    }
+    .sticky .main-nav{
+        margin-top: 10px;
+    }
+    .sticky .mobile-nav{ margin-top: 20px;}
+    .sticky .mobile-nav ion-icon{ color: #555; }
+
+    .instructions{ margin-top: -50px;}
+    h1 { font-size: 180% ;}
+    h2 { font-size: 150% ;}
+    .long-copy{
+        width: 100% ;
+        margin-left: 0;
+    }
+    .icon-big{margin: 0 auto ;}
+    .content h3{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .apple-screen{ float: none;}
+    .apple{ text-align: center;}
+    .work-step div{
+        font-size: 80% ;
+        height: 35px;
+        width: 35px;
+    }
+    .work-step{ margin-bottom: 10px;}
+    .instrucs{ text-align: center;}
+    .plan-box{ text-align: center;}
+    .plan-box span{ font-size: 55% }
+    .footer-nav { float: none; text-align: center;}
+    .social-links{float: none; text-align: center;}
+}
+
+/* !---- SMALL PHONES : 0 to 480px ----! */
+@media only screen and (max-width: 480px) {
+}
